@@ -1,0 +1,10 @@
+this-or-that:
+  replicaCount: 1
+  image:
+    repository: jordilaforge/this-or-that
+    tag: latest
+  network:
+    http:
+      servicePort: 8080
+      ingress:
+        host: this-or-that-this-or-that.apps.okd.baloise.dev
