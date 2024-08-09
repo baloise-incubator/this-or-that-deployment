@@ -7,4 +7,4 @@ this-or-that:
     http:
       servicePort: 8080
       ingress:
-        host: this-or-that-this-or-that.apps.okd.baloise.dev
+        host: this-or-that-this-or-that.apps.baloise.dev
